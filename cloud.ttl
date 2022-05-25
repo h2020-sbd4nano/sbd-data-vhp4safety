@@ -1,0 +1,28 @@
+#59 triples detected in the JSON-LD
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sbd:   <https://www.sbd4nano.eu/rdf/#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+
+<https://vhp4safety.github.io/cloud/>
+ a                    void:DatasetDescription ;
+ dct:title            "Cloud services provided by VHP4Safety"@en ;
+ foaf:img             <https://vhp4safety.nl/wp-content/uploads/sites/725/2021/05/VHP-LOGO-100mm-RGB.png> ;
+ dct:license          <http://creativecommons.org/publicdomain/zero/1.0/> . # license of this metadata
+
+<https://vhp4safety.github.io/cloud/service/aopwiki> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "AOP-Wiki Snorql UI"@en ;
+  dc:description "Graphical interface to an AOP-Wiki SPARQL endpoint."@en ;
+  foaf:page <https://aopwiki.cloud.vhp4safety.nl/> .
+
+<https://vhp4safety.github.io/cloud/service/cdkdepict> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "CDK Depict"@en ;
+  dc:description "A webservice the converts a SMILES into 2D depictions (SVG or PNG)."@en ;
+  dct:license <https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html> ;
+  foaf:page <https://cdkdepict.cloud.vhp4safety.nl/> .
+
