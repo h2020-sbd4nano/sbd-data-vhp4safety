@@ -6,14 +6,18 @@
 @Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.3.0')
 @Grab(group='io.github.egonw.bacting', module='net.bioclipse.managers.jsoup', version='0.3.0')
 
+import groovy.xml.XmlSlurper
+
 bioclipse = new net.bioclipse.managers.BioclipseManager(".");
 rdf = new net.bioclipse.managers.RDFManager(".");
 jsoup = new net.bioclipse.managers.JSoupManager(".");
 
-databases = [
-  "https://vhp4safety.github.io/cloud/service/aopwiki",
-  "https://vhp4safety.github.io/cloud/service/cdkdepict"
-]
+sitemap = "https://raw.githubusercontent.com/VHP4Safety/cloud/main/sitemap.xml"
+sitemapTxt = bioclipse.download(sitemap)
+
+def urlset = new XmlSlurper().parseText(sitemapTxt)
+databases = []
+for (url in urlset.children()) databases.add(url.loc.text())
 
 kg = rdf.createInMemoryStore()
 
