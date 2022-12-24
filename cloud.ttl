@@ -1,4 +1,4 @@
-#59 triples detected in the JSON-LD
+#126 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -19,10 +19,53 @@
   dc:description "Graphical interface to an AOP-Wiki SPARQL endpoint."@en ;
   foaf:page <https://aopwiki.cloud.vhp4safety.nl/> .
 
+<https://vhp4safety.github.io/cloud/service/bridgedb> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "BridgeDb"@en ;
+  dc:description "A framework to map identifiers between various biological databases and related sources."@en ;
+  dct:license <https://www.apache.org/licenses/LICENSE-2.0> ;
+  foaf:page <https://bridgedb.github.io/> .
+
 <https://vhp4safety.github.io/cloud/service/cdkdepict> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "CDK Depict"@en ;
   dc:description "A webservice the converts a SMILES into 2D depictions (SVG or PNG)."@en ;
   dct:license <https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html> ;
   foaf:page <https://cdkdepict.cloud.vhp4safety.nl/> .
+
+<https://vhp4safety.github.io/cloud/service/decimer> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "DECIMER"@en ;
+  dc:description "Online service to extract chemical structures from PDFs and images."@en ;
+  foaf:page <https://decimer.ai/> .
+
+<https://vhp4safety.github.io/cloud/service/sombie> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "SOM Prediction"@en ;
+  dc:description "Combination of site-of-metabolism and reactivity for (P450) site-of-metabolism prediction."@en ;
+  foaf:page <https://sombie.cloud.vhp4safety.nl/> .
+
+<https://vhp4safety.github.io/cloud/service/sysrev> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "SysRev"@en ;
+  dc:description "Service to support literature research."@en ;
+  foaf:page <https://sysrev.com/> .
+
+<https://vhp4safety.github.io/cloud/service/txg_mapr> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "TXG-MAPr"@en ;
+  dc:description "Weighted gene co-expression network analysis obtained from the Primary Human Hepatocytes TG-GATEs dataset."@en ;
+  foaf:page <https://txg-mapr.eu/> .
+
+<https://vhp4safety.github.io/cloud/service/wikibase> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "VHP4Safety Wikibase"@en ;
+  dc:description "A Wikibase instance to hold information about compounds."@en ;
+  foaf:page <https://compoundcloud.wikibase.cloud/> .
+
+<https://vhp4safety.github.io/cloud/service/wikipathways_aop> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "WikiPathways - AOP Portal"@en ;
+  dc:description "The Adverse Outcome Pathway (AOP) portal for WikiPathways."@en ;
+  foaf:page <https://www.wikipathways.org/index.php/Portal:AOP> .
 
