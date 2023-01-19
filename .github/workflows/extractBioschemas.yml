@@ -22,7 +22,7 @@ jobs:
 
       - name: Extract Bioschemas
         run: |
-          groovy extractBioschemasOpen.groovy | tee cloud.ttl
+          groovy extractBioschemas.groovy | tee cloud.ttl
 
       - name: Commit Turtle
         run: |
