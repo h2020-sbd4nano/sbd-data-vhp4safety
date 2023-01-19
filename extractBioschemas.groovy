@@ -6,8 +6,6 @@
 @Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.3.0')
 @Grab(group='io.github.egonw.bacting', module='net.bioclipse.managers.jsoup', version='0.3.0')
 
-import groovy.xml.XmlSlurper
-
 bioclipse = new net.bioclipse.managers.BioclipseManager(".");
 rdf = new net.bioclipse.managers.RDFManager(".");
 jsoup = new net.bioclipse.managers.JSoupManager(".");
