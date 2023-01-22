@@ -40,7 +40,7 @@
 <https://vhp4safety.github.io/cloud/service/sombie> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "SOM Prediction"@en ;
-  dc:description "Combination of site-of-metabolism and reactivity for (P450) site-of-metabolism prediction."@en ;
+  dc:description "A webservice for protein-structure and reactivity based (P450) site-of-metabolism prediction."@en ;
   foaf:page <https://sombie.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/sysrev> a sbd:Resource ;
@@ -52,7 +52,7 @@
 <https://vhp4safety.github.io/cloud/service/txg_mapr> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "TXG-MAPr"@en ;
-  dc:description "Weighted gene co-expression network analysis obtained from the Primary Human Hepatocytes TG-GATEs dataset."@en ;
+  dc:description "An R-Shiny-based implementation of weighted gene co-expression network analysis (WGCNA) obtained from the Primary Human Hepatocytes (PHH) TG-GATEs dataset."@en ;
   foaf:page <https://txg-mapr.eu/> .
 
 <https://vhp4safety.github.io/cloud/service/wikibase> a sbd:Resource ;
@@ -64,6 +64,6 @@
 <https://vhp4safety.github.io/cloud/service/wikipathways_aop> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "WikiPathways - AOP Portal"@en ;
-  dc:description "The Adverse Outcome Pathway (AOP) portal for WikiPathways."@en ;
-  foaf:page <https://www.wikipathways.org/index.php/Portal:AOP> .
+  dc:description "This Adverse Outcome Pathway (AOP) portal for WikiPathways to highlight the molecular basis of AOPs or events in AOPs."@en ;
+  foaf:page <http://aop.wikipathways.org/> .
 
