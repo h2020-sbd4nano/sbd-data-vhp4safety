@@ -1,4 +1,4 @@
-#122 triples detected in the JSON-LD
+#158 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -19,6 +19,12 @@
   dc:description "Graphical interface to an AOP-Wiki SPARQL endpoint."@en ;
   foaf:page <https://aopwiki.cloud.vhp4safety.nl/> .
 
+<https://vhp4safety.github.io/cloud/service/biomodels> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "BioModels"@en ;
+  dc:description "BioModels is a repository of mathematical models of biological and biomedical systems."@en ;
+  foaf:page <https://www.ebi.ac.uk/biomodels/> .
+
 <https://vhp4safety.github.io/cloud/service/bridgedb> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "BridgeDb"@en ;
@@ -28,14 +34,32 @@
 <https://vhp4safety.github.io/cloud/service/cdkdepict> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "CDK Depict"@en ;
-  dc:description "A webservice the converts a SMILES into 2D depictions (SVG or PNG)."@en ;
+  dc:description "A webservice that converts a SMILES into 2D depictions (SVG or PNG)."@en ;
   foaf:page <https://cdkdepict.cloud.vhp4safety.nl/> .
+
+<https://vhp4safety.github.io/cloud/service/copasi> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "COPASI"@en ;
+  dc:description "Open-source software application for creating and solving mathematical models of biological processes such as metabolic networks, cell-signaling pathways, regulatory networks, infectious diseases, and many others."@en ;
+  foaf:page <http://copasi.org/> .
 
 <https://vhp4safety.github.io/cloud/service/decimer> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "DECIMER"@en ;
   dc:description "Online service to extract chemical structures from PDFs and images."@en ;
   foaf:page <https://decimer.ai/> .
+
+<https://vhp4safety.github.io/cloud/service/flame> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "Flame"@en ;
+  dc:description "An open source framework for model development, hosting, and usage in production environments."@en ;
+  foaf:page <http://flame.cloud.vhp4safety.nl:8098/> .
+
+<https://vhp4safety.github.io/cloud/service/popgen> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "PopGen"@en ;
+  dc:description "Service to generate online virtual human population."@en ;
+  foaf:page <http://xnet.hsl.gov.uk/Popgen/> .
 
 <https://vhp4safety.github.io/cloud/service/sombie> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
