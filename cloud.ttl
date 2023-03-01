@@ -1,4 +1,4 @@
-#158 triples detected in the JSON-LD
+#185 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -37,6 +37,18 @@
   dc:description "A webservice that converts a SMILES into 2D depictions (SVG or PNG)."@en ;
   foaf:page <https://cdkdepict.cloud.vhp4safety.nl/> .
 
+<https://vhp4safety.github.io/cloud/service/celldesigner> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "CellDesigner"@en ;
+  dc:description "A modeling tool of biochemical networks."@en ;
+  foaf:page <https://www.celldesigner.org/> .
+
+<https://vhp4safety.github.io/cloud/service/comptox> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "CompTox"@en ;
+  dc:description "An online database to provide access to chemistry, toxicity, and exposure information for chemicals."@en ;
+  foaf:page <https://comptox.epa.gov/dashboard/> .
+
 <https://vhp4safety.github.io/cloud/service/copasi> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "COPASI"@en ;
@@ -54,6 +66,12 @@
   rdfs:label "Flame"@en ;
   dc:description "An open source framework for model development, hosting, and usage in production environments."@en ;
   foaf:page <http://flame.cloud.vhp4safety.nl:8098/> .
+
+<https://vhp4safety.github.io/cloud/service/jrc_data_catalogue> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "Joint Research Centre Data Catalogue"@en ;
+  dc:description "A catalogue of metadata records about datasets."@en ;
+  foaf:page <https://data.jrc.ec.europa.eu/> .
 
 <https://vhp4safety.github.io/cloud/service/popgen> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
