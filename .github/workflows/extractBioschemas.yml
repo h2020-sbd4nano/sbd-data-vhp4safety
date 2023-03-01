@@ -24,6 +24,9 @@ jobs:
         run: |
           groovy extractBioschemas.groovy | tee cloud.ttl
 
+      - name: RDF syntax check
+        uses: AtomGraph/RDF-syntax-check@v1.0.4
+        
       - name: Commit Turtle
         run: |
           git config --global user.name 'GitHub Action'
