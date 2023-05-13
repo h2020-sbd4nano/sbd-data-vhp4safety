@@ -10,7 +10,7 @@
 <https://vhp4safety.github.io/cloud/>
  a                    void:DatasetDescription ;
  dct:title            "Cloud services provided by VHP4Safety"@en ;
- foaf:img             <https://vhp4safety.nl/wp-content/uploads/sites/725/2021/05/VHP-LOGO-100mm-RGB.png> ;
+ foaf:img             <https://images.nieuwsbrieven.rivm.nl/101500/0/5763/fe1e7915ce28f7a96ca25ed234631504.png> ;
  dct:license          <http://creativecommons.org/publicdomain/zero/1.0/> . # license of this metadata
 
 <https://vhp4safety.github.io/cloud/service/aopwiki> a sbd:Resource ;
