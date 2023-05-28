@@ -9,6 +9,7 @@
 
 <https://vhp4safety.github.io/cloud/>
  a                    void:DatasetDescription ;
+ dc:source            <https://cloud.vhp4safety.nl/> ;
  dct:title            "Cloud services provided by VHP4Safety"@en ;
  foaf:img             <https://images.nieuwsbrieven.rivm.nl/101500/0/5763/fe1e7915ce28f7a96ca25ed234631504.png> ;
  dct:license          <http://creativecommons.org/publicdomain/zero/1.0/> . # license of this metadata
