@@ -2,15 +2,15 @@
 //
 // GPL v3
 
-@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.3.0')
-@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.3.0')
-@Grab(group='io.github.egonw.bacting', module='net.bioclipse.managers.jsoup', version='0.3.0')
+@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.3.3')
+@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.3.3')
+@Grab(group='io.github.egonw.bacting', module='net.bioclipse.managers.jsoup', version='0.3.3')
 
 bioclipse = new net.bioclipse.managers.BioclipseManager(".");
 rdf = new net.bioclipse.managers.RDFManager(".");
 jsoup = new net.bioclipse.managers.JSoupManager(".");
 
-sitemap = "https://raw.githubusercontent.com/VHP4Safety/cloud/main/sitemap.xml"
+sitemap = "https://cloud.vhp4safety.nl/sitemap.xml"
 sitemapTxt = bioclipse.download(sitemap)
 
 def urlset = new XmlSlurper().parseText(sitemapTxt)
