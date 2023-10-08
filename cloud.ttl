@@ -1,4 +1,4 @@
-#203 triples detected in the JSON-LD
+#239 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -31,6 +31,12 @@
   rdfs:label "BioModels"@en ;
   dc:description "BioModels is a repository of mathematical models of biological and biomedical systems."@en ;
   foaf:page <https://www.ebi.ac.uk/biomodels/> .
+
+<https://vhp4safety.github.io/cloud/service/biotransformer> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "BioTransformer"@en ;
+  dc:description "Website with a tool that can predict metabolites for a SMILES."@en ;
+  foaf:page <https://biotransformer.ca/> .
 
 <https://vhp4safety.github.io/cloud/service/bridgedb> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
@@ -86,11 +92,29 @@
   dc:description "A catalogue of metadata records about datasets."@en ;
   foaf:page <https://data.jrc.ec.europa.eu/> .
 
+<https://vhp4safety.github.io/cloud/service/oecd_qsar_toolbox> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "The OECD QSAR Toolbox"@en ;
+  dc:description "The OECD QSAR Toolbox is a software designed to support hazard assessment of chemicals as well as to increase mechanistic and other knowledge on chemical substances in a cost-efficient way. As a freely available computational tool, it promotes the use of assessment methods alternative to animals and minimizes unnecessary animal testing without reducing the safety of human health and environment. It is intended to be used by governments, chemical industry and other stakeholders."@en ;
+  foaf:page <https://qsartoolbox.org/> .
+
+<https://vhp4safety.github.io/cloud/service/opsin> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "OPSIN: Open Parser for Systematic IUPAC nomenclature"@en ;
+  dc:description "Website with a tool that can parse IUPAC names for chemicals into the chemical graph notation SMILES."@en ;
+  foaf:page <https://opsin.ch.cam.ac.uk/> .
+
 <https://vhp4safety.github.io/cloud/service/popgen> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "PopGen"@en ;
   dc:description "Service to generate online virtual human population."@en ;
   foaf:page <http://xnet.hsl.gov.uk/Popgen/> .
+
+<https://vhp4safety.github.io/cloud/service/qsprpred> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "QSPRpred"@en ;
+  dc:description "Service to train and employ QSAR and PCM models. Takes a compound structure and pretrained model as input and returns the predicted potency of said compound."@en ;
+  foaf:page <https://github.com/CDDLeiden/QSPRpred> .
 
 <https://vhp4safety.github.io/cloud/service/sombie> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
