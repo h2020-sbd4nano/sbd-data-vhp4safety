@@ -1,4 +1,4 @@
-#252 triples detected in the JSON-LD
+#261 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -73,6 +73,12 @@
   rdfs:label "DECIMER"@en ;
   dc:description "Online service to extract chemical structures from PDFs and images."@en ;
   foaf:page <https://decimer.ai/> .
+
+<https://vhp4safety.github.io/cloud/service/fairdomhub> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "FAIRDOMHub"@en ;
+  dc:description "A web-accessible registry for storing, sharing and publishing research assets of biology projects."@en ;
+  foaf:page <https://fairdomhub.org/> .
 
 <https://vhp4safety.github.io/cloud/service/fairspace> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
