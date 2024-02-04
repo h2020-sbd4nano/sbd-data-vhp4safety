@@ -1,4 +1,4 @@
-#261 triples detected in the JSON-LD
+#270 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -67,6 +67,12 @@
   rdfs:label "COPASI"@en ;
   dc:description "Open-source software application for creating and solving mathematical models of biological processes such as metabolic networks, cell-signaling pathways, regulatory networks, infectious diseases, and many others."@en ;
   foaf:page <http://copasi.org/> .
+
+<https://vhp4safety.github.io/cloud/service/cplogd> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "cpLogD"@en ;
+  dc:description "A model to predict water–octanol distribution coefficient (logD) for chemical compounds. It is a proxy for the lipophilicity which is a major determinant of drug properties and overall suitability of drug candidates."@en ;
+  foaf:page <https://cplogd.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/decimer> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
