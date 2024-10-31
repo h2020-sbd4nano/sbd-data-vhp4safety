@@ -1,4 +1,4 @@
-#270 triples detected in the JSON-LD
+#279 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -19,6 +19,12 @@
   rdfs:label "AOP-Wiki Snorql UI"@en ;
   dc:description "Graphical interface to an AOP-Wiki SPARQL endpoint."@en ;
   foaf:page <https://aopwiki.cloud.vhp4safety.nl/> .
+
+<https://vhp4safety.github.io/cloud/service/aopwikiapi> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "AOP-Wiki API"@en ;
+  dc:description "REST API for AOP-Wiki content, using SPARQL"@en ;
+  foaf:page <https://aopwiki-api.cloud.vhp4safety.nl/api/marvinm2/AOPWikiQueries> .
 
 <https://vhp4safety.github.io/cloud/service/arrayanalysis> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
