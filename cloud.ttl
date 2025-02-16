@@ -1,4 +1,4 @@
-#279 triples detected in the JSON-LD
+#301 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -17,31 +17,31 @@
 <https://vhp4safety.github.io/cloud/service/aopwiki> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "AOP-Wiki Snorql UI"@en ;
-  dc:description "Graphical interface to an AOP-Wiki SPARQL endpoint."@en ;
+  dc:description "A graphical interface to make queries to the AOP-Wiki SPARQL endpoint."@en ;
   foaf:page <https://aopwiki.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/aopwikiapi> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "AOP-Wiki API"@en ;
-  dc:description "REST API for AOP-Wiki content, using SPARQL"@en ;
+  dc:description "A REST API for AOP-Wiki content to make SPARQL queries."@en ;
   foaf:page <https://aopwiki-api.cloud.vhp4safety.nl/api/marvinm2/AOPWikiQueries> .
 
 <https://vhp4safety.github.io/cloud/service/arrayanalysis> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "ArrayAnalysis"@en ;
-  dc:description "A user-friendly solutions for microarray quality control and pre-processing"@en ;
+  dc:description "A user-friendly service to conduct quality control and pre-processing analyses for microarray data."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
 <https://vhp4safety.github.io/cloud/service/biomodels> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "BioModels"@en ;
-  dc:description "BioModels is a repository of mathematical models of biological and biomedical systems."@en ;
+  dc:description "A repository of mathematical models of biological and biomedical systems."@en ;
   foaf:page <https://www.ebi.ac.uk/biomodels/> .
 
 <https://vhp4safety.github.io/cloud/service/biotransformer> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "BioTransformer"@en ;
-  dc:description "Website with a tool that can predict metabolites for a SMILES."@en ;
+  dc:description "A software tool to predict metabolites based on inputs in SMILE format."@en ;
   foaf:page <https://biotransformer.ca/> .
 
 <https://vhp4safety.github.io/cloud/service/bridgedb> a sbd:Resource ;
@@ -53,13 +53,13 @@
 <https://vhp4safety.github.io/cloud/service/cdkdepict> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "CDK Depict"@en ;
-  dc:description "A webservice that converts a SMILES into 2D depictions (SVG or PNG)."@en ;
+  dc:description "A webservice to convert SMILES into 2D depictions in either SVG, PNG, and PNG formats."@en ;
   foaf:page <https://cdkdepict.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/celldesigner> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "CellDesigner"@en ;
-  dc:description "A modeling tool of biochemical networks."@en ;
+  dc:description "A structured diagram editor to draw gene-regulatory and biochemical networks."@en ;
   foaf:page <https://www.celldesigner.org/> .
 
 <https://vhp4safety.github.io/cloud/service/comptox> a sbd:Resource ;
@@ -71,102 +71,114 @@
 <https://vhp4safety.github.io/cloud/service/copasi> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "COPASI"@en ;
-  dc:description "Open-source software application for creating and solving mathematical models of biological processes such as metabolic networks, cell-signaling pathways, regulatory networks, infectious diseases, and many others."@en ;
+  dc:description "An open-source software application to create and solve mathematical models of biological processes such as metabolic networks, cell-signaling pathways, regulatory networks, infectious diseases, and many others."@en ;
   foaf:page <http://copasi.org/> .
 
 <https://vhp4safety.github.io/cloud/service/cplogd> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "cpLogD"@en ;
-  dc:description "A model to predict water–octanol distribution coefficient (logD) for chemical compounds. It is a proxy for the lipophilicity which is a major determinant of drug properties and overall suitability of drug candidates."@en ;
+  dc:description "A model to predict water–octanol distribution coefficient (logD) for chemical compounds which is a proxy for the lipophilicity which is a major determinant of drug properties and overall suitability of drug candidates."@en ;
   foaf:page <https://cplogd.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/decimer> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "DECIMER"@en ;
-  dc:description "Online service to extract chemical structures from PDFs and images."@en ;
+  dc:description "An online service to extract chemical structures from PDF-formatted files and images."@en ;
   foaf:page <https://decimer.ai/> .
+
+<https://vhp4safety.github.io/cloud/service/ema_documents> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "European Medicines Agency Documents"@en ;
+  dc:description "An online repository of official reports from the European Medicines Agency."@en ;
+  foaf:page <https://www.ema.europa.eu/en/search> .
 
 <https://vhp4safety.github.io/cloud/service/fairdomhub> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "FAIRDOMHub"@en ;
-  dc:description "A web-accessible registry for storing, sharing and publishing research assets of biology projects."@en ;
+  dc:description "A web-accessible registry to store, share and publish research assets of biology projects."@en ;
   foaf:page <https://fairdomhub.org/> .
 
 <https://vhp4safety.github.io/cloud/service/fairspace> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "Fairspace"@en ;
-  dc:description "An open source (meta)data platform that also allows import/export of metadata and uses RDF (turtle) underneath."@en ;
+  dc:description "An open source data management platform that allows importing and exporting metadata using Resource Description Framework (RDF)"@en ;
   foaf:page <https://www.thehyve.nl/services/fairspace> .
 
 <https://vhp4safety.github.io/cloud/service/flame> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "Flame"@en ;
-  dc:description "An open source framework for model development, hosting, and usage in production environments."@en ;
+  dc:description "An open source framework to develop, host, and use machine-learning models, such as QSAR-like models, in production environments."@en ;
   foaf:page <http://flame.cloud.vhp4safety.nl:8098/> .
 
 <https://vhp4safety.github.io/cloud/service/jrc_data_catalogue> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "Joint Research Centre Data Catalogue"@en ;
-  dc:description "A catalogue of metadata records about datasets."@en ;
+  dc:description "An inventory of data produced by the Joint Research Centre (JRC) in accordance with the JRC Data Policy."@en ;
   foaf:page <https://data.jrc.ec.europa.eu/> .
 
 <https://vhp4safety.github.io/cloud/service/oecd_qsar_toolbox> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "The OECD QSAR Toolbox"@en ;
-  dc:description "The OECD QSAR Toolbox is a software designed to support hazard assessment of chemicals as well as to increase mechanistic and other knowledge on chemical substances in a cost-efficient way. As a freely available computational tool, it promotes the use of assessment methods alternative to animals and minimizes unnecessary animal testing without reducing the safety of human health and environment. It is intended to be used by governments, chemical industry and other stakeholders."@en ;
+  dc:description "A software to support hazard assessment of chemicals as well as to increase mechanistic and other knowledge on chemical substances in a cost-efficient way."@en ;
   foaf:page <https://qsartoolbox.org/> .
+
+<https://vhp4safety.github.io/cloud/service/oppbk_model> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "OP PBK Model"@en ;
+  dc:description "To be added"@en ;
+  foaf:page <http://oppbk.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/opsin> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "OPSIN: Open Parser for Systematic IUPAC nomenclature"@en ;
-  dc:description "Website with a tool that can parse IUPAC names for chemicals into the chemical graph notation SMILES."@en ;
+  dc:description "An online service with a tool to parse IUPAC names for chemicals into the chemical graph notation SMILES."@en ;
   foaf:page <https://opsin.ch.cam.ac.uk/> .
 
 <https://vhp4safety.github.io/cloud/service/popgen> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "PopGen"@en ;
-  dc:description "Service to generate online virtual human population."@en ;
+  dc:description "An online service to generate a virtual human population."@en ;
   foaf:page <http://xnet.hsl.gov.uk/Popgen/> .
 
 <https://vhp4safety.github.io/cloud/service/qsprpred> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "QSPRpred"@en ;
-  dc:description "Service to train and employ QSAR and PCM models. Takes a compound structure and pretrained model as input and returns the predicted potency of said compound."@en ;
+  dc:description "A service to train and employ QSAR and PCM models that take a compound structure and pretrained model as input and returns the predicted potency of said compound."@en ;
   foaf:page <https://github.com/CDDLeiden/QSPRpred> .
 
 <https://vhp4safety.github.io/cloud/service/sombie> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "SOM Prediction"@en ;
-  dc:description "A webservice for protein-structure and reactivity based (P450) site-of-metabolism prediction."@en ;
+  dc:description "A webservice to conduct protein-structure and reactivity based (P450) site-of-metabolism prediction."@en ;
   foaf:page <https://sombie.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/sysrev> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "SysRev"@en ;
-  dc:description "Service to support literature research."@en ;
+  dc:description "An online service to conduct literature review, data extraction and systematic review."@en ;
   foaf:page <https://sysrev.com/> .
 
 <https://vhp4safety.github.io/cloud/service/txg_mapr> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "TXG-MAPr"@en ;
-  dc:description "An R-Shiny-based implementation of weighted gene co-expression network analysis (WGCNA) obtained from the Primary Human Hepatocytes (PHH) TG-GATEs dataset."@en ;
+  dc:description "An online application to implement weighted gene co-expression network analysis (WGCNA) derived from the Primary Human Hepatocytes (PHH) TG-GATEs data sets."@en ;
   foaf:page <https://txg-mapr.eu/> .
 
 <https://vhp4safety.github.io/cloud/service/wikibase> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "VHP4Safety Wikibase"@en ;
-  dc:description "A Wikibase instance to hold information about compounds."@en ;
+  dc:description "A Wikibase instance to store and present information about toxic, safe and potentially toxic compounds related to the VHP4Safety project."@en ;
   foaf:page <https://compoundcloud.wikibase.cloud/> .
 
 <https://vhp4safety.github.io/cloud/service/wikipathways_aop> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "WikiPathways - AOP Portal"@en ;
-  dc:description "This Adverse Outcome Pathway (AOP) portal for WikiPathways to highlight the molecular basis of AOPs or events in AOPs."@en ;
+  dc:description "An Adverse Outcome Pathway (AOP) portal for WikiPathways to highlight the molecular basis of AOPs or events in AOPs."@en ;
   foaf:page <http://aop.wikipathways.org/> .
 
 <https://vhp4safety.github.io/cloud/service/xploreaop> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "xploreaop"@en ;
-  dc:description "Shiny webapplication to visualize Adverse Outcome Pathway (AOP) networks. So far data has been included to interactively explore the AOPs for two liver outcomes: Cholestasis and Steatosis"@en ;
+  dc:description "A web application to visualize Adverse Outcome Pathway (AOP) networks and interactively explore the AOPs for two liver outcomes, Cholestasis and Steatosis."@en ;
   foaf:page <https://xploreaop.cloud.vhp4safety.nl/> .
 
