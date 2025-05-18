@@ -1,10 +1,10 @@
-// Copyright (c) 2022  Egon Willighagen <egon.willighagen@gmail.com>
+// Copyright (c) 2022-2025  Egon Willighagen <egon.willighagen@gmail.com>
 //
 // GPL v3
 
-@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.3.3')
-@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.3.3')
-@Grab(group='io.github.egonw.bacting', module='net.bioclipse.managers.jsoup', version='0.3.3')
+@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='1.0.5')
+@Grab(group='io.github.egonw.bacting', module='managers-ui', version='1.0.5')
+@Grab(group='io.github.egonw.bacting', module='net.bioclipse.managers.jsoup', version='1.0.5')
 
 bioclipse = new net.bioclipse.managers.BioclipseManager(".");
 rdf = new net.bioclipse.managers.RDFManager(".");
