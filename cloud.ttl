@@ -83,7 +83,7 @@
 <https://vhp4safety.github.io/cloud/service/cplogd> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "cpLogD"@en ;
-  dc:description "A model to predict water–octanol distribution coefficient (logD) for chemical compounds which is a proxy for the lipophilicity which is a major determinant of drug properties and overall suitability of drug candidates."@en ;
+  dc:description "A model to predict water-octanol distribution coefficient (logD) for chemical compounds which is a proxy for the lipophilicity which is a major determinant of drug properties and overall suitability of drug candidates."@en ;
   foaf:page <https://cplogd.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/decimer> a sbd:Resource ;
