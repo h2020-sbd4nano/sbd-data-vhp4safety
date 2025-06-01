@@ -1,4 +1,4 @@
-#311 triples detected in the JSON-LD
+#369 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -18,6 +18,12 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "AOP-Builder"@en ;
   dc:description "A tool to explore scientific literature to extract relevant entities and their relations for AOP construction, using AI."@en ;
+  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+
+<https://vhp4safety.github.io/cloud/service/aopnetwork> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "AOP Network Tool"@en ;
+  dc:description "Populate a network with AOPs and add weights to the edges based on custom tabular data, queries to other VHP tools and external databases, via BioDataFuse "@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
 <https://vhp4safety.github.io/cloud/service/aopwiki> a sbd:Resource ;
@@ -48,6 +54,12 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "BioTransformer"@en ;
   dc:description "A software tool to predict metabolites based on inputs in SMILE format."@en ;
+  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+
+<https://vhp4safety.github.io/cloud/service/bmdexpress_3> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "BMDExpress-3"@en ;
+  dc:description "A tool to perform dose response modeling for high dimensional dose-response analysis."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
 <https://vhp4safety.github.io/cloud/service/bridgedb> a sbd:Resource ;
@@ -92,6 +104,12 @@
   dc:description "An online service to extract chemical structures from PDF-formatted files and images."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
+<https://vhp4safety.github.io/cloud/service/dsld> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "NIH Dietary Supplement Label Database"@en ;
+  dc:description "The Dietary Supplement Label Database was developed by the American Office of Dietary Supplements at the National Institutes of Health. This database includes printed on more than 200 thousand labels of dietary supplement products sold in the United States."@en ;
+  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+
 <https://vhp4safety.github.io/cloud/service/ema_documents> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "European Medicines Agency Documents"@en ;
@@ -116,6 +134,12 @@
   dc:description "An open source framework to develop, host, and use machine-learning models, such as QSAR-like models, in production environments."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
+<https://vhp4safety.github.io/cloud/service/gscholar> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "Google Scholar"@en ;
+  dc:description "Search engine for (scientific) literature."@en ;
+  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+
 <https://vhp4safety.github.io/cloud/service/jrc_data_catalogue> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "Joint Research Centre Data Catalogue"@en ;
@@ -131,7 +155,7 @@
 <https://vhp4safety.github.io/cloud/service/oppbk_model> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "OP PBK Model"@en ;
-  dc:description "To be added"@en ;
+  dc:description "Physiologically based pharmacokinetic model for organophosphates"@en ;
   foaf:page <http://oppbk.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/opsin> a sbd:Resource ;
@@ -140,11 +164,17 @@
   dc:description "An online service with a tool to parse IUPAC names for chemicals into the chemical graph notation SMILES."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
-<https://vhp4safety.github.io/cloud/service/popgen> a sbd:Resource ;
+<https://vhp4safety.github.io/cloud/service/oqt_assistant> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
-  rdfs:label "PopGen"@en ;
-  dc:description "An online service to generate a virtual human population."@en ;
+  rdfs:label "O'QT: The OECD QSAR Toolbox AI Assistant"@en ;
+  dc:description "A tool to analyze chemicals, assess hazards, and get Read-Across recommendations using a powerful multi-agent AI system connected to the OECD QSAR Toolbox."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+
+<https://vhp4safety.github.io/cloud/service/qaop_app> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "qAOP-App"@en ;
+  dc:description "An interactive tool offering an overview and dynamic time‐course predictions of KEs and AOs via ODE‐based qAOP models, based on VHP4Safety case studies."@en ;
+  foaf:page <https://qaop.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/qsprpred> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
@@ -163,6 +193,12 @@
   rdfs:label "SysRev"@en ;
   dc:description "An online service to conduct literature review, data extraction and systematic review."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+
+<https://vhp4safety.github.io/cloud/service/toxtemp_assistant> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "ToxTempAssistant"@en ;
+  dc:description "A tool that uses Large Language Models to harmonize and complete method descriptions of in vitro toxicity tests based on the ToxTemp template. The tool alleviates the administrative burden on toxicologists by extracting methodological details from contextual documents, such as protocols, publications, or lab notebooks, and generating structured draft responses to the 77 questions of the ToxTemp template."@en ;
+  foaf:page <https://toxtempassistant.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/txg_mapr> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
