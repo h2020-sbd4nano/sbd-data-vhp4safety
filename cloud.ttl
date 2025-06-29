@@ -1,4 +1,4 @@
-#369 triples detected in the JSON-LD
+#374 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -18,7 +18,7 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "AOP-Builder"@en ;
   dc:description "A tool to explore scientific literature to extract relevant entities and their relations for AOP construction, using AI."@en ;
-  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+  foaf:page <https://crebuilder.vhp4safety.nl> .
 
 <https://vhp4safety.github.io/cloud/service/aopnetwork> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
@@ -66,13 +66,13 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "BridgeDb"@en ;
   dc:description "A framework to map identifiers between various biological databases and related sources."@en ;
-  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+  foaf:page <https://bridgedb.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/cdkdepict> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "CDK Depict"@en ;
   dc:description "A webservice to convert SMILES into 2D depictions in either SVG, PNG, and PNG formats."@en ;
-  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+  foaf:page <https://cdkdepict.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/celldesigner> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
@@ -132,6 +132,12 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "Flame"@en ;
   dc:description "An open source framework to develop, host, and use machine-learning models, such as QSAR-like models, in production environments."@en ;
+  foaf:page <http://flame.cloud.vhp4safety.nl:8098/> .
+
+<https://vhp4safety.github.io/cloud/service/google> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "Google Search"@en ;
+  dc:description "Web search engine by Google."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
 <https://vhp4safety.github.io/cloud/service/gscholar> a sbd:Resource ;
@@ -145,6 +151,12 @@
   rdfs:label "Joint Research Centre Data Catalogue"@en ;
   dc:description "An inventory of data produced by the Joint Research Centre (JRC) in accordance with the JRC Data Policy."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+
+<https://vhp4safety.github.io/cloud/service/kb> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "VHP4Safety Wikibase User Interface"@en ;
+  dc:description "A Synia-based graphical user interface to the content of the VHP4Safety Wikibase using SPARQL queries."@en ;
+  foaf:page <https://kb.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/oecd_qsar_toolbox> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
@@ -206,12 +218,6 @@
   dc:description "An online application to implement weighted gene co-expression network analysis (WGCNA) derived from the Primary Human Hepatocytes (PHH) TG-GATEs data sets."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
-<https://vhp4safety.github.io/cloud/service/vhp4safety_wikibase> a sbd:Resource ;
-  dc:source <https://vhp4safety.github.io/cloud/> ;
-  rdfs:label "VHP4Safety Wikibase User Interface"@en ;
-  dc:description "A Synia-based graphical user interface to the content of the VHP4Safety Wikibase using SPARQL queries."@en ;
-  foaf:page <https://kb.cloud.vhp4safety.nl/> .
-
 <https://vhp4safety.github.io/cloud/service/wikibase> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "VHP4Safety Wikibase"@en ;
@@ -228,5 +234,5 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "xploreaop"@en ;
   dc:description "A web application to visualize Adverse Outcome Pathway (AOP) networks and interactively explore the AOPs for two liver outcomes, Cholestasis and Steatosis."@en ;
-  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+  foaf:page <https://xploreaop.cloud.vhp4safety.nl/> .
 
