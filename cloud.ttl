@@ -22,8 +22,8 @@
 
 <https://vhp4safety.github.io/cloud/service/aopnetwork> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
-  rdfs:label "AOP Network Tool"@en ;
-  dc:description "Populate a network with AOPs and add weights to the edges based on custom tabular data, queries to other VHP tools and external databases, via BioDataFuse "@en ;
+  rdfs:label "AOP Network Builder"@en ;
+  dc:description "web-based tool for building, visualizing, and analyzing Adverse Outcome Pathway (AOP) networks. It serves as an extended user interface for the AOP-Wiki RDF SPARQL endpoint."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
 <https://vhp4safety.github.io/cloud/service/aopwiki> a sbd:Resource ;
