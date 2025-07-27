@@ -1,4 +1,4 @@
-#374 triples detected in the JSON-LD
+#383 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -157,6 +157,12 @@
   rdfs:label "VHP4Safety Wikibase User Interface"@en ;
   dc:description "A Synia-based graphical user interface to the content of the VHP4Safety Wikibase using SPARQL queries."@en ;
   foaf:page <https://kb.cloud.vhp4safety.nl/> .
+
+<https://vhp4safety.github.io/cloud/service/molaopanalyser> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "MolAOP analyser"@en ;
+  dc:description "The MolAOP analyser service enables users to analyse transcriptomic data in the context of molecular Adverse Outcome Pathways (AOPs). The tool allows users to upload differential expression data or select from built-in demo datasets. It then guides them through gene selection, visualisation (volcano plots), and Key Event enrichment analysis based on predefined KE-to-pathway mappings."@en ;
+  foaf:page <https://molaop-analyser.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/oecd_qsar_toolbox> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
