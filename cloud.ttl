@@ -1,4 +1,4 @@
-#383 triples detected in the JSON-LD
+#392 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -158,6 +158,12 @@
   dc:description "A Synia-based graphical user interface to the content of the VHP4Safety Wikibase using SPARQL queries."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
+<https://vhp4safety.github.io/cloud/service/llmapperino> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "LLMapperino"@en ;
+  dc:description "A multi-agent question-answering tool that combines structured pathway knowledge from user-selected MINERVA projects with live web research (Perplexity) and synthesizes evidence using an LLM. It targets specialized questions in lipid metabolism and related tox/biology by grounding answers in curated MINERVA maps and corroborating sources."@en ;
+  foaf:page <http://81.169.225.178:5016/> .
+
 <https://vhp4safety.github.io/cloud/service/molaopanalyser> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "MolAOP analyser"@en ;
@@ -180,7 +186,7 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "OPSIN: Open Parser for Systematic IUPAC nomenclature"@en ;
   dc:description "An online service with a tool to parse IUPAC names for chemicals into the chemical graph notation SMILES."@en ;
-  foaf:page <https://opsin.ch.cam.ac.uk/> .
+  foaf:page <https://www.ebi.ac.uk/opsin/> .
 
 <https://vhp4safety.github.io/cloud/service/oqt_assistant> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
