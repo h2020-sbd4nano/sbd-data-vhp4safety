@@ -1,4 +1,4 @@
-#392 triples detected in the JSON-LD
+#410 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -128,6 +128,12 @@
   dc:description "An open source data management platform that allows importing and exporting metadata using Resource Description Framework (RDF)"@en ;
   foaf:page <https://www.thehyve.nl/services/fairspace> .
 
+<https://vhp4safety.github.io/cloud/service/farmacokompas> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "Farmacotherapeutisch Kompas"@en ;
+  dc:description "The Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands."@en ;
+  foaf:page <https://www.farmacotherapeutischkompas.nl/> .
+
 <https://vhp4safety.github.io/cloud/service/flame> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "Flame"@en ;
@@ -190,8 +196,8 @@
 
 <https://vhp4safety.github.io/cloud/service/oqt_assistant> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
-  rdfs:label "O'QT: The OECD QSAR Toolbox AI Assistant"@en ;
-  dc:description "A tool to analyze chemicals, assess hazards, and get Read-Across recommendations using a powerful multi-agent AI system connected to the OECD QSAR Toolbox."@en ;
+  rdfs:label "O'QT — OECD QSAR Toolbox AI Assistant"@en ;
+  dc:description "A multi-agent assistant that connects to a locally running OECD QSAR Toolbox Web API to analyze chemicals, profile hazards, and suggest read-across strategies. O’QT fetches properties, experimental data, and profiling outputs from the Toolbox and synthesizes them into an AI-generated report."@en ;
   foaf:page <https://github.com/VHP4Safety/O-QT-OECD-QSAR-Toolbox-AI-assistant> .
 
 <https://vhp4safety.github.io/cloud/service/qaop_app> a sbd:Resource ;
@@ -229,6 +235,12 @@
   rdfs:label "TXG-MAPr"@en ;
   dc:description "An online application to implement weighted gene co-expression network analysis (WGCNA) derived from the Primary Human Hepatocytes (PHH) TG-GATEs data sets."@en ;
   foaf:page <https://txg-mapr.eu/> .
+
+<https://vhp4safety.github.io/cloud/service/vhp_glossary> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "VHP4Safety Glossary"@en ;
+  dc:description "A collection of ontology with the names, abrreviations and definitions of the terminology that is used in the VHP4Safety project."@en ;
+  foaf:page <https://glossary.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/wikibase> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
