@@ -1,4 +1,4 @@
-#455 triples detected in the JSON-LD
+#464 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -107,7 +107,7 @@
 <https://vhp4safety.github.io/cloud/service/danish_qsar_database> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "Danish (Q)SAR Database"@en ;
-  dc:description "A freely available (Q)SAR tool for substance evaluations that includes estimates for from more than 200 (Q)SARs covering a wide range of hazardous properties relevant for human health and the environment."@en ;
+  dc:description "A freely available (Q)SAR tool for substance evaluations that includes estimates from more than 200 (Q)SARs covering a wide range of hazardous properties relevant for human health and the environment."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
 <https://vhp4safety.github.io/cloud/service/decimer> a sbd:Resource ;
@@ -193,6 +193,12 @@
   rdfs:label "MolAOP analyser"@en ;
   dc:description "An online service for analyzing transcriptomic data in the context of molecular Adverse Outcome Pathways (AOPs), supporting data upload or demo datasets for gene selection, visualization and Key Event (KE) enrichment analysis."@en ;
   foaf:page <https://molaop-analyser.vhp4safety.nl/> .
+
+<https://vhp4safety.github.io/cloud/service/molaopbuilder> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "Molecular AOP Builder"@en ;
+  dc:description "A web application for mapping Key Events from Adverse Outcome Pathways to WikiPathways and Gene Ontology Biological Process terms, using intelligent suggestions based on gene overlap, text similarity, and BioBERT semantic embeddings."@en ;
+  foaf:page <https://molaop-builder.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/oecd_qsar_toolbox> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
