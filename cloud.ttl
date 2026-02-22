@@ -1,4 +1,4 @@
-#464 triples detected in the JSON-LD
+#473 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -229,6 +229,12 @@
   rdfs:label "O-QT — OECD QSAR Toolbox AI Assistant"@en ;
   dc:description "An online assistant for using the OECD QSAR Toolbox to analyze chemicals, assess hazards and generate AI-based summary reports."@en ;
   foaf:page <https://o-qt-oecd.vhp4safety.nl/> .
+
+<https://vhp4safety.github.io/cloud/service/pathvisio> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "PathVisio"@en ;
+  dc:description "Desktop software to visualize, edit, and draw new pathways, which can be exported in the GPML format, for example, to WikiPathways."@en ;
+  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
 <https://vhp4safety.github.io/cloud/service/qaop_app> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
