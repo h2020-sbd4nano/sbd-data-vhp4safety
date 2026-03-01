@@ -1,4 +1,4 @@
-#473 triples detected in the JSON-LD
+#482 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -43,6 +43,12 @@
   rdfs:label "ArrayAnalysis"@en ;
   dc:description "A user-interface for preprocessing and statistically analyzing RNA-sequencing and microarray transcriptomics data."@en ;
   foaf:page <https://arrayanalysis.vhp4safety.nl/> .
+
+<https://vhp4safety.github.io/cloud/service/asreview> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "ASReview"@en ;
+  dc:description "Open-source active-learning software for transparent and efficient systematic literature reviews."@en ;
+  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
 <https://vhp4safety.github.io/cloud/service/biomodels> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
@@ -263,7 +269,7 @@
 <https://vhp4safety.github.io/cloud/service/sysrev> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "SysRev"@en ;
-  dc:description "An online service for conduction of literature review, data extraction and systematic review."@en ;
+  dc:description "An online (proprietary) service for literature review, data extraction and systematic review; consider ASReview as the preferred open-source alternative."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
 <https://vhp4safety.github.io/cloud/service/toxtemp_assistant> a sbd:Resource ;
