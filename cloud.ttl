@@ -1,4 +1,4 @@
-#482 triples detected in the JSON-LD
+#491 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -259,6 +259,12 @@
   rdfs:label "R-ODAF Shiny"@en ;
   dc:description "An R Shiny interface for the R-ODAF framework that provides standardised RNA-seq differential expression analysis for regulatory toxicology applications."@en ;
   foaf:page <https://r-odaf.nl/> .
+
+<https://vhp4safety.github.io/cloud/service/robot> a sbd:Resource ;
+  dc:source <https://vhp4safety.github.io/cloud/> ;
+  rdfs:label "ROBOT"@en ;
+  dc:description "Research Object Builder for Open Toxicology."@en ;
+  foaf:page <https://robot.vhp4safety.nl/ui> .
 
 <https://vhp4safety.github.io/cloud/service/sombie> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
