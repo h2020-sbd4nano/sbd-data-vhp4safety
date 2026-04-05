@@ -162,7 +162,7 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "Flame"@en ;
   dc:description "An open source web application for building predictive models from biologically annotated chemical structures using predefined workflows."@en ;
-  foaf:page <http://flame.cloud.vhp4safety.nl:8098/> .
+  foaf:page <http://flame.cloud.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/google> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
