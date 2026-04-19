@@ -78,7 +78,7 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "The Chemistry Development Kit"@en ;
   dc:description "A Java library for chem- and bioinformatics, with functionality to read/write chemical structures, calculate molecular descriptors, physicochemical properties, substructure and similarity searching, and much more."@en ;
-  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+  foaf:page <http://cdk.github.io/> .
 
 <https://vhp4safety.github.io/cloud/service/cdkdepict> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
@@ -192,7 +192,7 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "MCT8 Docking for MIE Discovery"@en ;
   dc:description "A Python-based notebook for identifying potential MCT8 inhibitors and related molecular events linked to developmental thyroid toxicity from maternal thyroid hormone deprivation."@en ;
-  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+  foaf:page <https://mct8-docking.vhp4safety.nl/#docking> .
 
 <https://vhp4safety.github.io/cloud/service/molaopanalyser> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
@@ -240,7 +240,7 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "PathVisio"@en ;
   dc:description "Desktop software to visualize, edit, and draw new pathways, which can be exported in the GPML format, for example, to WikiPathways."@en ;
-  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+  foaf:page <https://pathvisio.org/> .
 
 <https://vhp4safety.github.io/cloud/service/qaop_app> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
@@ -275,7 +275,7 @@
 <https://vhp4safety.github.io/cloud/service/sysrev> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "SysRev"@en ;
-  dc:description "An online (proprietary) service for literature review, data extraction and systematic review; consider ASReview as the preferred open-source alternative."@en ;
+  dc:description "An online service for conduction of literature review, data extraction and systematic review."@en ;
   foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
 <https://vhp4safety.github.io/cloud/service/toxtemp_assistant> a sbd:Resource ;
@@ -288,25 +288,25 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "TXG-MAPr"@en ;
   dc:description "An online application for implementation of weighted gene co-expression network analysis (WGCNA) derived from publicly available transcriptomic datasets from the TG-GATEs database."@en ;
-  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+  foaf:page <https://txg-mapr.eu/> .
 
 <https://vhp4safety.github.io/cloud/service/vhp_glossary> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "VHP4Safety Glossary"@en ;
   dc:description "A collection of ontology with names, abrreviations and definitions of the terminology that is used within the VHP4Safety project."@en ;
-  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+  foaf:page <https://glossary.vhp4safety.nl/> .
 
 <https://vhp4safety.github.io/cloud/service/wikibase> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "VHP4Safety Wikibase"@en ;
   dc:description "A Wikibase instance for storing and presenting information about toxic, safe and potentially toxic compounds related to the VHP4Safety project."@en ;
-  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+  foaf:page <https://compoundcloud.wikibase.cloud/> .
 
 <https://vhp4safety.github.io/cloud/service/wikipathways_aop> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "WikiPathways - AOP Portal"@en ;
   dc:description "An Adverse Outcome Pathway (AOP) portal on WikiPathways for exploring the molecular basis of AOPs and their key events (KEs)."@en ;
-  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+  foaf:page <https://aop.wikipathways.org/> .
 
 <https://vhp4safety.github.io/cloud/service/xploreaop> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
