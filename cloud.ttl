@@ -234,7 +234,7 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "O-QT — OECD QSAR Toolbox AI Assistant"@en ;
   dc:description "An online assistant for using the OECD QSAR Toolbox to analyze chemicals, assess hazards and generate AI-based summary reports."@en ;
-  foaf:page <https://o-qt-oecd.vhp4safety.nl/> .
+  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
 
 <https://vhp4safety.github.io/cloud/service/pathvisio> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
