@@ -270,7 +270,7 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "SOM Prediction"@en ;
   dc:description "A webservice for prediction of protein-structure and reactivity based (P450) site-of-metabolism."@en ;
-  foaf:page <https://sombie.cloud.vhp4safety.nl/> .
+  foaf:page <https://colab.research.google.com/github/VHP4Safety/vhp4safety-docs/blob/main/tutorials/sombie/site_of_metabolism_prediction.ipynb> .
 
 <https://vhp4safety.github.io/cloud/service/sysrev> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
