@@ -132,7 +132,7 @@
   dc:source <https://vhp4safety.github.io/cloud/> ;
   rdfs:label "European Medicines Agency Documents"@en ;
   dc:description "An online repository for inventarisation of official reports from the European Medicines Agency concerning chemical evaluation and safety monitoring."@en ;
-  foaf:page <file:///home/runner/work/sbd-data-vhp4safety/sbd-data-vhp4safety/> .
+  foaf:page <https://www.ema.europa.eu/> .
 
 <https://vhp4safety.github.io/cloud/service/endocrine_disruptome> a sbd:Resource ;
   dc:source <https://vhp4safety.github.io/cloud/> ;
